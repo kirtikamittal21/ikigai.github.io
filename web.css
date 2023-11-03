@@ -1,0 +1,976 @@
+
+PageRip
+ Select page Select element
+HTML + Inline Styles
+HTML + CSS
+JSX
+Preview Full
+<style>
+    .style-0 {
+        cursor: auto;
+        background: rgba(0, 0, 0, 0) linear-gradient(to right bottom, rgb(225, 244, 239), rgb(170, 208, 205), rgb(118, 220, 213)) repeat scroll 0% 0% / auto padding-box border-box;
+        margin: 0px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        color: rgb(33, 37, 41);
+        text-align: left;
+        background-color: rgba(0, 0, 0, 0);
+        box-sizing: border-box;
+    }
+
+    .style-1 {
+        max-width: 1140px;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+    }
+
+    .style-2 {
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+        border-bottom: 5px solid rgb(41, 128, 185);
+        background-color: rgb(52, 58, 64);
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        padding: 8px 16px;
+        box-sizing: border-box;
+    }
+
+    .style-3 {
+        flex-wrap: nowrap;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        box-sizing: border-box;
+    }
+
+    .style-4 {
+        color: rgb(255, 255, 255);
+        display: block;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-right: 16px;
+        font-size: 20px;
+        line-height: 30px;
+        white-space: nowrap;
+        text-decoration: none solid rgb(255, 255, 255);
+        background-color: rgba(0, 0, 0, 0);
+        box-sizing: border-box;
+    }
+
+    .style-5 {
+        display: none;
+        transition: none 0s ease 0s;
+        color: rgba(0, 0, 0, 0.5);
+        border-color: rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        padding: 4px 12px;
+        font-size: 20px;
+        line-height: 20px;
+        background-color: rgba(0, 0, 0, 0);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        border-radius: 4px;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        user-select: none;
+        appearance: button;
+        text-transform: none;
+        overflow: visible;
+        margin: 0px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        box-sizing: border-box;
+    }
+
+    .style-6 {
+        background-color: rgb(255, 255, 255);
+        background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox=' 0 0 30 30' xmlns=' http: //www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E');display:inline-block;width: 1.5em;height:30px;vertical-align:middle;content:'';box-sizing:border-box;
+        }
+
+        .style-7 {
+            flex-basis: auto; display:flex; flex-grow:1; align-items:center; box-sizing:border-box;
+        }
+
+        .style-8 {
+            flex-direction:row; margin-left: auto !important; display:flex; padding-left:0px; margin-bottom:0px; list-style:outside none none; margin-top:0px; box-sizing:border-box;
+        }
+
+        .style-9 {
+            box-sizing:border-box;
+        }
+
+        .style-10 {
+            padding-right:8px; padding-left:8px; color:rgb(255, 255, 255); display:block; text-decoration:none solid rgb(255, 255, 255); background-color:rgba(0, 0, 0, 0); box-sizing:border-box;
+        }
+
+        .style-11 {
+            box-sizing:border-box;
+        }
+
+        .style-12 {
+            padding-right:8px; padding-left:8px; color:rgb(255, 255, 255); display:block; text-decoration:none solid rgb(255, 255, 255); background-color:rgba(0, 0, 0, 0); box-sizing:border-box;
+        }
+
+        .style-13 {
+            box-sizing:border-box;
+        }
+
+        .style-14 {
+            padding-right:8px; padding-left:8px; color:rgb(255, 255, 255); display:block; text-decoration:none solid rgb(255, 255, 255); background-color:rgba(0, 0, 0, 0); box-sizing:border-box;
+        }
+
+        .style-15 {
+            box-sizing:border-box;
+        }
+
+        .style-16 {
+            padding-right:8px; padding-left:8px; color:rgb(255, 255, 255); display:block; text-decoration:none solid rgb(255, 255, 255); background-color:rgba(0, 0, 0, 0); box-sizing:border-box;
+        }
+
+        .style-17 {
+            box-sizing:border-box;
+        }
+
+        .style-18 {
+            padding-right:8px; padding-left:8px; color:rgb(255, 255, 255); display:block; text-decoration:none solid rgb(255, 255, 255); background-color:rgba(0, 0, 0, 0); box-sizing:border-box;
+        }
+
+        .style-19 {
+            max-width:1140px; width: 100%; padding-right:15px; padding-left:15px; margin-right: auto; margin-left: auto; box-sizing:border-box;
+        }
+
+        .style-20 {
+            position:relative; box-sizing:border-box;
+        }
+
+        .style-21 {
+            position:absolute; right:0px; bottom:10px; left:0px; z-index:15; display:flex; justify-content:center; padding-left:0px; margin-right:166.5px; margin-left:166.5px; list-style:outside none none; margin-top:0px; margin-bottom:16px; box-sizing:border-box;
+        }
+
+        .style-22 {
+            position:relative; flex: 0 1 auto; width: 30px; height:3px; margin-right:3px; margin-left:3px; text-indent:-999px; cursor:pointer; background-color:rgba(255, 255, 255, 0.5); box-sizing:border-box;
+        }
+
+        .style-23 {
+            background-color:rgb(255, 255, 255); position:relative; flex: 0 1 auto; width: 30px; height:3px; margin-right:3px; margin-left:3px; text-indent:-999px; cursor:pointer; box-sizing:border-box;
+        }
+
+        .style-24 {
+            position:relative; flex: 0 1 auto; width: 30px; height:3px; margin-right:3px; margin-left:3px; text-indent:-999px; cursor:pointer; background-color:rgba(255, 255, 255, 0.5); box-sizing:border-box;
+        }
+
+        .style-25 {
+            position:relative; width: 100%; overflow:hidden; box-sizing:border-box;
+        }
+
+        .style-26 {
+            transition:none 0s ease 0s; position:relative; display:none; align-items:center; width: 100%; backface-visibility:hidden; perspective:1000px; box-sizing:border-box;
+        }
+
+        .style-27 {
+            display:block; max-width:100%; height: auto; vertical-align:middle; border-style:none; box-sizing:border-box;
+        }
+
+        .style-28 {
+            position:absolute; right:15%; bottom:20px; left:15%; z-index:10; padding-top:20px; padding-bottom:20px; color:rgb(255, 255, 255); text-align:center; box-sizing:border-box;
+        }
+
+        .style-29 {
+            font-size:28px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:33.6px; color:rgb(255, 255, 255); margin-top:0px; box-sizing:border-box;
+        }
+
+        .style-30 {
+            transition:none 0s ease 0s; display:block; position:relative; align-items:center; width: 100%; backface-visibility:hidden; perspective:1000px; box-sizing:border-box;
+        }
+
+        .style-31 {
+            display:block; max-width:100%; height: auto; vertical-align:middle; border-style:none; box-sizing:border-box;
+        }
+
+        .style-32 {
+            position:absolute; right:166.5px; bottom:20px; left:166.5px; z-index:10; padding-top:20px; padding-bottom:20px; color:rgb(255, 255, 255); text-align:center; box-sizing:border-box;
+        }
+
+        .style-33 {
+            font-size:28px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:33.6px; color:rgb(255, 255, 255); margin-top:0px; box-sizing:border-box;
+        }
+
+        .style-34 {
+            transition:none 0s ease 0s; position:relative; display:none; align-items:center; width: 100%; backface-visibility:hidden; perspective:1000px; box-sizing:border-box;
+        }
+
+        .style-35 {
+            display:block; max-width:100%; height: auto; vertical-align:middle; border-style:none; box-sizing:border-box;
+        }
+
+        .style-36 {
+            position:absolute; right:15%; bottom:20px; left:15%; z-index:10; padding-top:20px; padding-bottom:20px; color:rgb(255, 255, 255); text-align:center; box-sizing:border-box;
+        }
+
+        .style-37 {
+            font-size:28px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:33.6px; color:rgb(255, 255, 255); margin-top:0px; box-sizing:border-box;
+        }
+
+        .style-38 {
+            left:0px; position:absolute; top:0px; bottom:0px; display:flex; align-items:center; justify-content:center; width: 15%; color:rgb(255, 255, 255); text-align:center; opacity:0.5; text-decoration:none solid rgb(255, 255, 255); background-color:rgba(0, 0, 0, 0); box-sizing:border-box;
+        }
+
+        .style-39 {
+            background-image:url('data:image/svg+xml;charset=utf8,%3Csvg xmlns=' http: //www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E');display:block;width: 20px;height:20px;box-sizing:border-box;
+            }
+
+            .style-40 {
+                right:0px; position:absolute; top:0px; bottom:0px; display:flex; align-items:center; justify-content:center; width: 15%; color:rgb(255, 255, 255); text-align:center; opacity:0.5; text-decoration:none solid rgb(255, 255, 255); background-color:rgba(0, 0, 0, 0); box-sizing:border-box;
+            }
+
+            .style-41 {
+                background-image:url('data:image/svg+xml;charset=utf8,%3Csvg xmlns=' http: //www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E');display:block;width: 20px;height:20px;box-sizing:border-box;
+                }
+
+                .style-42 {
+                    max-width:1140px; width: 100%; padding-right:15px; padding-left:15px; margin-right: auto; margin-left: auto; box-sizing:border-box;
+                }
+
+                .style-43 {
+                    flex-flow:row nowrap; justify-content:flex-start; border-bottom:5px solid rgb(41, 128, 185); background-color:rgb(52, 58, 64); position:relative; display:flex; flex-wrap:nowrap; align-items:center; padding:8px 16px; box-sizing:border-box;
+                }
+
+                .style-44 {
+                    flex-wrap:nowrap; max-width:1140px; display:flex; align-items:center; justify-content:space-between; width: 100%; padding-right:15px; padding-left:15px; margin-right: auto; margin-left: auto; box-sizing:border-box;
+                }
+
+                .style-45 {
+                    color:rgb(255, 255, 255); display:block; padding-top:5px; padding-bottom:5px; margin-right:16px; font-size:20px; line-height:30px; white-space:nowrap; text-decoration:none solid rgb(255, 255, 255); background-color:rgba(0, 0, 0, 0); box-sizing:border-box;
+                }
+
+                .style-46 {
+                    display:block; box-sizing:border-box;
+                }
+
+                .style-47 {
+                    display:flex; flex-flow:row wrap; align-items:center; box-sizing:border-box;
+                }
+
+                .style-48 {
+                    display:block; width: auto; vertical-align:middle; transition:none 0s ease 0s; padding:6px 12px; font-size:16px; line-height:24px; color:rgb(73, 80, 87); background-color:rgb(255, 255, 255); -webkit-background-clip:padding-box; border:1px solid rgb(206, 212, 218); border-radius:4px; overflow:visible; margin:0px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; box-sizing:border-box;
+                }
+
+                .style-49 {
+                    transition:none 0s ease 0s; border:1px solid rgb(222, 226, 230); color:rgb(255, 255, 255); background-color:rgb(52, 58, 64); border-color:rgb(222, 226, 230); cursor:pointer; display:block; font-weight:400; text-align:center; white-space:nowrap; vertical-align:middle; user-select:none; padding:6px 12px; font-size:16px; line-height:24px; border-radius:4px; appearance:button; text-transform:none; overflow:visible; margin:0px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; box-sizing:border-box;
+                }
+
+                .style-50 {
+                    padding:4px; box-sizing:border-box; font-weight:900; font-family:'Font Awesome 5 Free'; -webkit-font-smoothing:antialiased; display:inline-block; font-style:normal; font-variant:normal; text-rendering: auto; line-height:16px;
+                }
+
+                .style-51 {
+                    max-width:1140px; width: 100%; padding-right:15px; padding-left:15px; margin-right: auto; margin-left: auto; box-sizing:border-box;
+                }
+
+                .style-52 {
+                    display:flex; flex-wrap:wrap; margin-right:-15px; margin-left:-15px; box-sizing:border-box;
+                }
+
+                .style-53 {
+                    flex-basis:0px; flex-grow:1; max-width:100%; position:relative; width: 100%; min-height:1px; padding-right:15px; padding-left:15px; box-sizing:border-box;
+                }
+
+                .style-54 {
+                    color:rgb(255, 255, 255); text-align:center; padding:48px; background-color:rgb(52, 58, 64); box-sizing:border-box;
+                }
+
+                .style-55 {
+                    font-size:56px; font-weight:300; line-height:67.2px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; color:rgb(255, 255, 255); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-56 {
+                    text-align:justify; font-size:20px; font-weight:300; margin-top:0px; margin-bottom:16px; box-sizing:border-box;
+                }
+
+                .style-57 {
+                    text-align:center; margin-top:48px; box-sizing:border-box;
+                }
+
+                .style-58 {
+                    max-width:1140px; width: 100%; padding-right:15px; padding-left:15px; margin-right: auto; margin-left: auto; box-sizing:border-box;
+                }
+
+                .style-59 {
+                    display:flex; flex-wrap:wrap; margin-right:-15px; margin-left:-15px; box-sizing:border-box;
+                }
+
+                .style-60 {
+                    flex-basis:0px; flex-grow:1; max-width:100%; position:relative; width: 100%; min-height:1px; padding-right:15px; padding-left:15px; box-sizing:border-box;
+                }
+
+                .style-61 {
+                    color:rgb(255, 255, 255); text-align:center; padding:48px; background-color:rgb(52, 58, 64); box-sizing:border-box;
+                }
+
+                .style-62 {
+                    font-size:56px; font-weight:300; line-height:67.2px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; color:rgb(255, 255, 255); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-63 {
+                    text-align:justify; font-size:20px; font-weight:300; margin-top:0px; margin-bottom:16px; box-sizing:border-box;
+                }
+
+                .style-64 {
+                    max-width:1140px; width: 100%; padding-right:15px; padding-left:15px; margin-right: auto; margin-left: auto; box-sizing:border-box;
+                }
+
+                .style-65 {
+                    margin-top:4px; display:flex; flex-wrap:wrap; margin-right:-15px; margin-left:-15px; box-sizing:border-box;
+                }
+
+                .style-66 {
+                    flex:0 0 25%; max-width:25%; position:relative; width: 100%; min-height:1px; padding-right:15px; padding-left:15px; box-sizing:border-box;
+                }
+
+                .style-67 {
+                    text-align:center; position:relative; display:flex; flex-direction:column; min-width:0px; overflow-wrap:break-word; background-color:rgb(255, 255, 255); -webkit-background-clip:border-box; border:1px solid rgba(0, 0, 0, 0.125); border-radius:4px; box-sizing:border-box;
+                }
+
+                .style-68 {
+                    flex: 1 1 auto; padding:20px; box-sizing:border-box;
+                }
+
+                .style-69 {
+                    vertical-align:middle; border-style:none; box-sizing:border-box;
+                }
+
+                .style-70 {
+                    font-size:28px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:33.6px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-71 {
+                    font-size:16px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:19.2px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-72 {
+                    margin-top:0px; margin-bottom:16px; box-sizing:border-box;
+                }
+
+                .style-73 {
+                    flex:0 0 25%; max-width:25%; position:relative; width: 100%; min-height:1px; padding-right:15px; padding-left:15px; box-sizing:border-box;
+                }
+
+                .style-74 {
+                    text-align:center; position:relative; display:flex; flex-direction:column; min-width:0px; overflow-wrap:break-word; background-color:rgb(255, 255, 255); -webkit-background-clip:border-box; border:1px solid rgba(0, 0, 0, 0.125); border-radius:4px; box-sizing:border-box;
+                }
+
+                .style-75 {
+                    flex: 1 1 auto; padding:20px; box-sizing:border-box;
+                }
+
+                .style-76 {
+                    vertical-align:middle; border-style:none; box-sizing:border-box;
+                }
+
+                .style-77 {
+                    font-size:28px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:33.6px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-78 {
+                    font-size:16px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:19.2px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-79 {
+                    margin-top:0px; margin-bottom:16px; box-sizing:border-box;
+                }
+
+                .style-80 {
+                    flex:0 0 25%; max-width:25%; position:relative; width: 100%; min-height:1px; padding-right:15px; padding-left:15px; box-sizing:border-box;
+                }
+
+                .style-81 {
+                    text-align:center; position:relative; display:flex; flex-direction:column; min-width:0px; overflow-wrap:break-word; background-color:rgb(255, 255, 255); -webkit-background-clip:border-box; border:1px solid rgba(0, 0, 0, 0.125); border-radius:4px; box-sizing:border-box;
+                }
+
+                .style-82 {
+                    flex: 1 1 auto; padding:20px; box-sizing:border-box;
+                }
+
+                .style-83 {
+                    vertical-align:middle; border-style:none; box-sizing:border-box;
+                }
+
+                .style-84 {
+                    font-size:28px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:33.6px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-85 {
+                    font-size:16px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:19.2px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-86 {
+                    margin-top:0px; margin-bottom:16px; box-sizing:border-box;
+                }
+
+                .style-87 {
+                    flex:0 0 25%; max-width:25%; position:relative; width: 100%; min-height:1px; padding-right:15px; padding-left:15px; box-sizing:border-box;
+                }
+
+                .style-88 {
+                    text-align:center; position:relative; display:flex; flex-direction:column; min-width:0px; overflow-wrap:break-word; background-color:rgb(255, 255, 255); -webkit-background-clip:border-box; border:1px solid rgba(0, 0, 0, 0.125); border-radius:4px; box-sizing:border-box;
+                }
+
+                .style-89 {
+                    flex: 1 1 auto; padding:20px; box-sizing:border-box;
+                }
+
+                .style-90 {
+                    vertical-align:middle; border-style:none; box-sizing:border-box;
+                }
+
+                .style-91 {
+                    font-size:28px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:33.6px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-92 {
+                    font-size:16px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:19.2px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-93 {
+                    margin-top:0px; margin-bottom:16px; box-sizing:border-box;
+                }
+
+                .style-94 {
+                    max-width:1140px; width: 100%; padding-right:15px; padding-left:15px; margin-right: auto; margin-left: auto; box-sizing:border-box;
+                }
+
+                .style-95 {
+                    max-width:1140px; width: 100%; padding-right:15px; padding-left:15px; margin-right: auto; margin-left: auto; box-sizing:border-box;
+                }
+
+                .style-96 {
+                    box-sizing:border-box;
+                }
+
+                .style-97 {
+                    font-size:32px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:38.4px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-98 {
+                    text-align:justify; font-size:20px; font-weight:300; margin-top:0px; margin-bottom:16px; box-sizing:border-box;
+                }
+
+                .style-99 {
+                    margin:16px; display:flex; flex-wrap:wrap; margin-right:16px; margin-left:16px; box-sizing:border-box;
+                }
+
+                .style-100 {
+                    flex:0 0 25%; max-width:25%; margin-bottom:16px; position:relative; width: 100%; min-height:1px; padding-right:15px; padding-left:15px; box-sizing:border-box;
+                }
+
+                .style-101 {
+                    text-align:center; position:relative; display:flex; flex-direction:column; min-width:0px; overflow-wrap:break-word; background-color:rgb(255, 255, 255); -webkit-background-clip:border-box; border:1px solid rgba(0, 0, 0, 0.125); border-radius:4px; box-sizing:border-box;
+                }
+
+                .style-102 {
+                    flex: 1 1 auto; padding:20px; box-sizing:border-box;
+                }
+
+                .style-103 {
+                    box-sizing:border-box; font-weight:900; font-family:'Font Awesome 5 Free'; font-size:128px; -webkit-font-smoothing:antialiased; display:inline-block; font-style:normal; font-variant:normal; text-rendering: auto; line-height:128px;
+                }
+
+                .style-104 {
+                    font-size:24px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:28.8px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-105 {
+                    margin-top:0px; margin-bottom:16px; box-sizing:border-box;
+                }
+
+                .style-106 {
+                    flex:0 0 25%; max-width:25%; margin-bottom:16px; position:relative; width: 100%; min-height:1px; padding-right:15px; padding-left:15px; box-sizing:border-box;
+                }
+
+                .style-107 {
+                    text-align:center; position:relative; display:flex; flex-direction:column; min-width:0px; overflow-wrap:break-word; background-color:rgb(255, 255, 255); -webkit-background-clip:border-box; border:1px solid rgba(0, 0, 0, 0.125); border-radius:4px; box-sizing:border-box;
+                }
+
+                .style-108 {
+                    flex: 1 1 auto; padding:20px; box-sizing:border-box;
+                }
+
+                .style-109 {
+                    box-sizing:border-box; font-weight:900; font-family:'Font Awesome 5 Free'; font-size:96px; -webkit-font-smoothing:antialiased; display:inline-block; font-style:normal; font-variant:normal; text-rendering: auto; line-height:96px;
+                }
+
+                .style-110 {
+                    font-size:24px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:28.8px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-111 {
+                    margin-top:0px; margin-bottom:16px; box-sizing:border-box;
+                }
+
+                .style-112 {
+                    flex:0 0 25%; max-width:25%; margin-bottom:16px; position:relative; width: 100%; min-height:1px; padding-right:15px; padding-left:15px; box-sizing:border-box;
+                }
+
+                .style-113 {
+                    text-align:center; position:relative; display:flex; flex-direction:column; min-width:0px; overflow-wrap:break-word; background-color:rgb(255, 255, 255); -webkit-background-clip:border-box; border:1px solid rgba(0, 0, 0, 0.125); border-radius:4px; box-sizing:border-box;
+                }
+
+                .style-114 {
+                    flex: 1 1 auto; padding:20px; box-sizing:border-box;
+                }
+
+                .style-115 {
+                    box-sizing:border-box; font-weight:900; font-family:'Font Awesome 5 Free'; font-size:96px; -webkit-font-smoothing:antialiased; display:inline-block; font-style:normal; font-variant:normal; text-rendering: auto; line-height:96px;
+                }
+
+                .style-116 {
+                    font-size:24px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:28.8px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-117 {
+                    margin-top:0px; margin-bottom:16px; box-sizing:border-box;
+                }
+
+                .style-118 {
+                    flex:0 0 25%; max-width:25%; margin-bottom:16px; position:relative; width: 100%; min-height:1px; padding-right:15px; padding-left:15px; box-sizing:border-box;
+                }
+
+                .style-119 {
+                    text-align:center; position:relative; display:flex; flex-direction:column; min-width:0px; overflow-wrap:break-word; background-color:rgb(255, 255, 255); -webkit-background-clip:border-box; border:1px solid rgba(0, 0, 0, 0.125); border-radius:4px; box-sizing:border-box;
+                }
+
+                .style-120 {
+                    flex: 1 1 auto; padding:20px; box-sizing:border-box;
+                }
+
+                .style-121 {
+                    box-sizing:border-box; font-weight:900; font-family:'Font Awesome 5 Free'; font-size:96px; -webkit-font-smoothing:antialiased; display:inline-block; font-style:normal; font-variant:normal; text-rendering: auto; line-height:96px;
+                }
+
+                .style-122 {
+                    font-size:24px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:28.8px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-123 {
+                    margin-top:0px; margin-bottom:16px; box-sizing:border-box;
+                }
+
+                .style-124 {
+                    max-width:1140px; width: 100%; padding-right:15px; padding-left:15px; margin-right: auto; margin-left: auto; box-sizing:border-box;
+                }
+
+                .style-125 {
+                    display:flex; flex-wrap:wrap; margin-right:-15px; margin-left:-15px; box-sizing:border-box;
+                }
+
+                .style-126 {
+                    flex:0 0 50%; max-width:50%; position:relative; width: 100%; min-height:1px; padding-right:15px; padding-left:15px; box-sizing:border-box;
+                }
+
+                .style-127 {
+                    box-sizing:border-box;
+                }
+
+                .style-128 {
+                    font-size:32px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:38.4px; color:rgb(33, 37, 41); margin-top:0px; box-sizing:border-box;
+                }
+
+                .style-129 {
+                    width: 100%; max-width:100%; margin-bottom:16px; background-color:rgba(0, 0, 0, 0); border-collapse:collapse; box-sizing:border-box;
+                }
+
+                .style-130 {
+                    box-sizing:border-box;
+                }
+
+                .style-131 {
+                    box-sizing:border-box;
+                }
+
+                .style-132 {
+                    padding:12px; vertical-align:top; border-top:1px solid rgb(222, 226, 230); box-sizing:border-box;
+                }
+
+                .style-133 {
+                    display:inline-block; margin-bottom:8px; box-sizing:border-box;
+                }
+
+                .style-134 {
+                    padding:12px; vertical-align:top; border-top:1px solid rgb(222, 226, 230); box-sizing:border-box;
+                }
+
+                .style-135 {
+                    transition:none 0s ease 0s; display:block; width: 100%; padding:6px 12px; font-size:16px; line-height:24px; color:rgb(73, 80, 87); background-color:rgb(255, 255, 255); -webkit-background-clip:padding-box; border:1px solid rgb(206, 212, 218); border-radius:4px; overflow:visible; margin:0px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; box-sizing:border-box;
+                }
+
+                .style-136 {
+                    box-sizing:border-box;
+                }
+
+                .style-137 {
+                    padding:12px; vertical-align:top; border-top:1px solid rgb(222, 226, 230); box-sizing:border-box;
+                }
+
+                .style-138 {
+                    padding:12px; vertical-align:top; border-top:1px solid rgb(222, 226, 230); box-sizing:border-box;
+                }
+
+                .style-139 {
+                    transition:none 0s ease 0s; display:block; width: 100%; padding:6px 12px; font-size:16px; line-height:24px; color:rgb(73, 80, 87); background-color:rgb(255, 255, 255); -webkit-background-clip:padding-box; border:1px solid rgb(206, 212, 218); border-radius:4px; overflow:visible; margin:0px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; box-sizing:border-box;
+                }
+
+                .style-140 {
+                    box-sizing:border-box;
+                }
+
+                .style-141 {
+                    padding:12px; vertical-align:top; border-top:1px solid rgb(222, 226, 230); box-sizing:border-box;
+                }
+
+                .style-142 {
+                    padding:12px; vertical-align:top; border-top:1px solid rgb(222, 226, 230); box-sizing:border-box;
+                }
+
+                .style-143 {
+                    transition:none 0s ease 0s; display:block; width: 100%; padding:6px 12px; font-size:16px; line-height:24px; color:rgb(73, 80, 87); background-color:rgb(255, 255, 255); -webkit-background-clip:padding-box; border:1px solid rgb(206, 212, 218); border-radius:4px; overflow: auto; resize:vertical; margin:0px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; box-sizing:border-box;
+                }
+
+                .style-144 {
+                    box-sizing:border-box;
+                }
+
+                .style-145 {
+                    padding:12px; vertical-align:top; border-top:1px solid rgb(222, 226, 230); box-sizing:border-box;
+                }
+
+                .style-146 {
+                    transition:none 0s ease 0s; color:rgb(255, 255, 255); background-color:rgb(0, 123, 255); border-color:rgb(0, 123, 255); cursor:pointer; display:inline-block; font-weight:400; text-align:center; white-space:nowrap; vertical-align:middle; user-select:none; border:1px solid rgb(0, 123, 255); padding:6px 12px; font-size:16px; line-height:24px; border-radius:4px; appearance:button; text-transform:none; overflow:visible; margin:0px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; box-sizing:border-box;
+                }
+
+                .style-147 {
+                    max-width:1140px; color:rgb(255, 255, 255); text-align:center; padding:48px; background-color:rgb(52, 58, 64); width: 100%; padding-right:48px; padding-left:48px; margin-right: auto; margin-left: auto; display:block; box-sizing:border-box;
+                }
+
+                .style-148 {
+                    font-size:32px; margin-bottom:8px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'; font-weight:500; line-height:38.4px; color:rgb(255, 255, 255); margin-top:0px; box-sizing:border-box;
+                }
+</style>
+
+<body class="style-0">
+    <!--navbar-->
+    <div class="style-1">
+        <nav class="style-2">
+            <div class="style-3">
+                <a class="style-4" href="#">Navbar</a> <button class="style-5" data-toggle="collapse" data-target="#navbarNav">
+                    <span class="style-6"></span> </button>
+                <div class="style-7">
+                    <ul class="style-8">
+                        <li class="style-9">
+                            <a class="style-10" href="#home">Home</a>
+                        </li>
+                        <li class="style-11">
+                            <a class="style-12" href="#about">About</a>
+                        </li>
+                        <li class="style-13">
+                            <a class="style-14" href="#authors">Authors</a>
+                        </li>
+                        <li class="style-15">
+                            <a class="style-16" href="#services">Services</a>
+                        </li>
+                        <li class="style-17">
+                            <a class="style-18" href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--nvbar end-->
+    <!--carousel-->
+    <div class="style-19">
+        <div class="style-20" data-ride="carousel">
+            <ol class="style-21">
+                <li data-target="#car1" data-slide-to="0" class="style-22"></li>
+                <li data-target="#car1" data-slide-to="1" class="style-23"></li>
+                <li data-target="#car1" data-slide-to="2" class="style-24"></li>
+            </ol>
+            <div class="style-25" role="dropdown">
+                <div class="style-26">
+                    <img class="style-27" src="./images/img1.png" alt="First Slide" />
+                    <div class="style-28">
+                        <h3 class="style-29">Lorem, ipsum.</h3>
+                    </div>
+                </div>
+                <div class="style-30">
+                    <img class="style-31" src="./images/img2.png" alt="Second Slide" />
+                    <div class="style-32">
+                        <h3 class="style-33">Lorem, ipsum.</h3>
+                    </div>
+                </div>
+                <div class="style-34">
+                    <img class="style-35" src="./images/img3.png" alt="Third Slide" />
+                    <div class="style-36">
+                        <h3 class="style-37">Lorem, ipsum.</h3>
+                    </div>
+                </div>
+            </div> <a href="#car1" class="style-38" data-slide="prev">
+                <span class="style-39"></span> </a> <a href="#car1" class="style-40" data-slide="next">
+                <span class="style-41"></span> </a>
+        </div>
+    </div>
+    <!--end carousel-->
+    <!--search bar-->
+    <!--search bar-->
+    <div class="style-42">
+        <nav class="style-43">
+            <div class="style-44">
+                <a class="style-45" href="#">My Website</a>
+                <div class="style-46">
+                    <div class="style-47">
+                        <input class="style-48" type="text" placeholder="search" name="search" /> <button class="style-49">
+                            <i class="style-50"></i> </button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!--search end-->
+    <!--end search bar-->
+    <!--about-->
+    <div class="style-51">
+        <div class="style-52">
+            <div class="style-53">
+                <div class="style-54">
+                    <h2 class="style-55">About us</h2>
+                    <p class="style-56">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Praesentium beatae non magni dolorem dolore sit tempora laborum
+                        totam, dicta aut eum vitae odio sed sint illum quasi, maxime velit
+                        nesciunt dolores laudantium molestias, itaque consectetur mollitia
+                        molestiae. Non consectetur sequi, dolores laboriosam nostrum
+                        quibusdam rem a eum, ullam quisquam accusamus officia sunt
+                        cupiditate doloribus fugit reprehenderit. Pariatur molestiae
+                        asperiores voluptatum a, corporis minima consequuntur dicta nihil
+                        possimus tempora molestias quia. Reprehenderit doloribus unde
+                        distinctio quas alias dignissimos autem itaque. Esse laudantium
+                        ipsa numquam pariatur qui quos deleniti officia dolorem molestias
+                        cumque hic voluptate provident, debitis impedit consequuntur illum
+                        alias ducimus.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--about end-->
+    <!--meet our team-->
+    <div class="style-57">
+        <div class="style-58">
+            <div class="style-59">
+                <div class="style-60">
+                    <div class="style-61">
+                        <h2 class="style-62">Meet Authors</h2>
+                        <p class="style-63">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Praesentium beatae non magni dolorem dolore sit tempora laborum
+                            totam, dicta aut eum vitae odio sed sint illum quasi, maxime
+                            velit nesciunt dolores laudantium molestias, itaque consectetur
+                            mollitia molestiae. Non consectetur sequi, dolores laboriosam
+                            nostrum quibusdam rem a eum, ullam quisquam accusamus officia
+                            sunt cupiditate doloribus fugit reprehenderit. Pariatur
+                            molestiae asperiores voluptatum a, corporis minima consequuntur
+                            dicta nihil possimus tempora molestias quia. Reprehenderit
+                            doloribus unde distinctio quas alias dignissimos autem itaque.
+                            Esse laudantium ipsa numquam pariatur qui quos deleniti officia
+                            dolorem molestias cumque hic voluptate provident, debitis
+                            impedit consequuntur illum alias ducimus.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="style-64">
+            <div class="style-65">
+                <div class="style-66">
+                    <div class="style-67">
+                        <div class="style-68">
+                            <img src="./images/p1.jpeg" class="style-69" />
+                            <h3 class="style-70">James</h3>
+                            <h6 class="style-71">SEO</h6>
+                            <p class="style-72">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Velit, perspiciatis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-73">
+                    <div class="style-74">
+                        <div class="style-75">
+                            <img src="./images/p2.jpeg" class="style-76" />
+                            <h3 class="style-77">Neena</h3>
+                            <h6 class="style-78">HR</h6>
+                            <p class="style-79">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Velit, perspiciatis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-80">
+                    <div class="style-81">
+                        <div class="style-82">
+                            <img src="./images/p3.jpeg" class="style-83" />
+                            <h3 class="style-84">KSG</h3>
+                            <h6 class="style-85">Devloper</h6>
+                            <p class="style-86">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Velit, perspiciatis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-87">
+                    <div class="style-88">
+                        <div class="style-89">
+                            <img src="./images/p4.jpeg" class="style-90" />
+                            <h3 class="style-91">James</h3>
+                            <h6 class="style-92">Tester</h6>
+                            <p class="style-93">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Velit, perspiciatis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--end meet our team-->
+    <!--services-->
+    <div class="style-94">
+        <div class="style-95">
+            <div class="style-96">
+                <h2 class="style-97">Services</h2>
+                <p class="style-98">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae
+                    numquam saepe, nemo tempora voluptas quia quod distinctio iure
+                    perferendis eveniet sequi, sapiente provident vitae dolor nisi quis
+                    a quam inventore possimus nulla sunt? Asperiores soluta velit
+                    ratione. Veritatis, delectus? Ex saepe eius sunt voluptatibus
+                    adipisci tenetur numquam ducimus excepturi, soluta, officia animi
+                    omnis hic enim iure earum labore minima? Sit tenetur id aperiam quos
+                    cumque vitae, sint corrupti perspiciatis facilis, doloremque
+                    praesentium alias suscipit? Voluptate ipsa neque tempora voluptates
+                    doloremque suscipit nisi, reprehenderit explicabo dicta iusto quis
+                    tenetur odio similique commodi pariatur consequatur. Possimus
+                    incidunt, voluptate nulla modi magnam ipsum.
+                </p>
+            </div>
+            <div class="style-99">
+                <div class="style-100">
+                    <div class="style-101">
+                        <div class="style-102">
+                            <i class="style-103"></i>
+                            <h4 class="style-104">SEO</h4>
+                            <p class="style-105">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ipsam, facilis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-106">
+                    <div class="style-107">
+                        <div class="style-108">
+                            <i class="style-109"></i>
+                            <h4 class="style-110">Web Dev</h4>
+                            <p class="style-111">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ipsam, facilis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-112">
+                    <div class="style-113">
+                        <div class="style-114">
+                            <i class="style-115"></i>
+                            <h4 class="style-116">Web Designing</h4>
+                            <p class="style-117">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ipsam, facilis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="style-118">
+                    <div class="style-119">
+                        <div class="style-120">
+                            <i class="style-121"></i>
+                            <h4 class="style-122">Mobile App</h4>
+                            <p class="style-123">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Ipsam, facilis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--services-end-->
+    <!--contact-->
+    <div class="style-124">
+        <div class="style-125">
+            <div class="style-126">
+                <caption-top class="style-127">
+                    <h2 class="style-128">Contact us</h2>
+                </caption-top>
+                <table class="style-129">
+
+                    <tbody class="style-130">
+                        <tr class="style-131">
+                            <td class="style-132"><label for="fname" class="style-133"> Name</label></td>
+                            <td class="style-134">
+                                <input type="text" class="style-135" placeholder="fname" />
+                            </td>
+                        </tr>
+                        <tr class="style-136">
+                            <td class="style-137">Last Name</td>
+                            <td class="style-138">
+                                <input type="text" class="style-139" placeholder="lname" />
+                            </td>
+                        </tr>
+                        <tr class="style-140">
+                            <td class="style-141">Message</td>
+                            <td class="style-142"><textarea class="style-143"> </textarea></td>
+                        </tr>
+                        <tr class="style-144">
+                            <td class="style-145"><button class="style-146">Submit</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <!--end contact-->
+    <!--footer-->
+    <!--end footer-->
+    <footer class="style-147">
+        <h2 class="style-148">©KSG 2022-23</h2>
+    </footer>
+</body>
+ Copy to Clipboard
